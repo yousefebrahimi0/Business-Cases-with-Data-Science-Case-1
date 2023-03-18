@@ -39,3 +39,5 @@ Following the creation of these clusters, we will provide some insights of our o
 *    4.1.4. Collect additional data
 5. REFERENCES
 6. APPENDIX (List of figures) 
+
+#### Licence: Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND 4.0)
