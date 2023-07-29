@@ -1,4 +1,4 @@
-# Busines Cases with Data Science Case No. 1
+# Business Cases with Data Science Case No. 1
 ## Hotel customer segmentation project
 
 ### Problem:
@@ -12,7 +12,7 @@ Until 2015 hotel chain C operated 4 hotels, however, with the acquisition of new
 
 ### Summary:
 
-The focus of this project is to understand current customers characteristics in terms of revenue brought to the company, geography, demography, psychography and consumer behavior. We the given data using the latest methods and technological tools. Our plan is to find patterns in the features of the clients, allowing us to assign each client to a different group. Customer segmentation identifies the discrete group of customers with a high level of accuracy based on current customer data. This solution will allow the business to enable its marketing department and product developers to improve their business strategy by addressing customers individually in a more effective
+The focus of this project is to understand current customer characteristics in terms of revenue brought to the company, geography, demography, psychography and consumer behavior. We the given data using the latest methods and technological tools. Our plan is to find patterns in the features of the clients, allowing us to assign each client to a different group. Customer segmentation identifies the discrete group of customers with a high level of accuracy based on current customer data. This solution will allow the business to enable its marketing department and product developers to improve their business strategy by addressing customers individually in a more effective
 manner.
 Following the creation of these clusters, we will provide some insights of our own regarding the results obtained, to help make the hotel make strategic decisions to retain and attract customers. This will include our recommendations for the deployment of our solution, as well as any monitoring and maintenance measures necessary.
 
@@ -20,9 +20,9 @@ Following the creation of these clusters, we will provide some insights of our o
 
 1. EXECUTIVE SUMMARY
 2. Introduction
-3. Customer segmentation with CRISP-DM methodolody
+3. Customer segmentation with CRISP-DM methodology
 *  3.1. Business understanding
-*    3.1.1. Business Objetives 
+*    3.1.1. Business Objectives 
 *    3.1.2. Business Success Criteria 
 *    3.1.3. Situation Assessment 
 *    3.1.4. Determine Data Mining goals 
@@ -39,5 +39,26 @@ Following the creation of these clusters, we will provide some insights of our o
 *    4.1.4. Collect additional data
 5. REFERENCES
 6. APPENDIX (List of figures) 
+---
+### Steps:
+
+* Cleaned data by removing duplicates and anomalies
+* Performed PCA to reduce dimensions
+* Clustered data into 7 segments using KMeans
+* Analyzed segments by age, region, channel, and spending
+* Developed targeted marketing strategies for each segment
+
+![image](https://github.com/yousefebrahimi0/Business-Cases-with-Data-Science-Case-1/blob/main/pic1.png)
+
+### Conclusion:
+The data was cleaned and then segmented into 7 clusters using PCA and KMeans. The segments were analyzed by demographics and spending habits. Targeted marketing strategies were developed for each segment to increase revenue through customized campaigns. The data-driven approach will improve customer retention and acquisition.
+Here is a very short summary of the conclusions for each cluster:
+- VHV: High value older European customers booking through travel agents.
+- HV: High value middle-aged European customers booking through travel agents. 
+- MV: Moderate value older European customers booking through travel agents.
+- LV: Low value middle-aged European customers booking through travel agents.
+- VLV: Very low value middle-aged European customers booking through travel agents. 
+- NV(A): No value very young and very old European customers booking through travel agents.
+- NV(B): No value middle-aged European customers booking through travel agents.
 
 #### Licence: Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND 4.0)
